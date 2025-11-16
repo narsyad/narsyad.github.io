@@ -1,0 +1,62 @@
+# Due to how Astro handles type inference with this structure,
+# we need to prefix all configuration keys with an underscore.
+
+[_.site]
+baseUrl = "http://localhost:4321"
+
+[_.globalMeta]
+title = "Anas Arsyad"
+description = "Software Engineer, Web Developer, and Tech Enthusiast."
+longDescription = "Sharing knowledge and experiences in web development and technology."
+cardImage = "https://github.com/narsyad"
+keywords = [
+    "web development",
+    "software engineer",
+    "technology",
+    "full-stack development",
+]
+
+[_.blogMeta]
+title = "Arsyad Blog"
+description = "Thoughts on web development and technology."
+longDescription = "Web development, tech trends, and the occasional programming mishap."
+cardImage = "https://github.com/narsyad"
+keywords = ["web development", "design", "technology"]
+
+[_.projectMeta]
+title = "Arsyad Projects"
+description = "A list of my web development projects and developer tools."
+longDescription = "All of my projects, including both frontend and full-stack applications."
+cardImage = "https://github.com/narsyad"
+keywords = ["web development", "design", "technology"]
+
+[_.notFoundMeta]
+title = "404 Not Found"
+description = "The page you are looking for does not exist."
+longDescription = "The page you are looking for does not exist. Maybe it never existed. Spooky."
+cardImage = "/pp4.png"
+
+[_.hero]
+title = "Anas Arsyad"
+subtitle = "Software Engineer"
+image = "/pp4.png"
+ctaText = "View Projects"
+ctaUrl = "/projects"
+
+[_.personal]
+name = "Anas Arsyad"
+githubProfile = "https://github.com/narsyad"
+twitterProfile = "https://twitter.com"
+linkedinProfile = "https://www.linkedin.com/in/anas-arsyad/"
+
+[_.texts]
+articlesName = "Articles"
+projectsName = "Projects"
+viewAll = "View All"
+noArticles = "No articles found."
+noProjects = "No projects found."
+
+[_.menu]
+home = "/"
+projects = "/projects"
+blog = "/blog"
