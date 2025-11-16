@@ -1,5 +1,6 @@
 ---
 import { getConfigurationCollection } from "../../lib/utils";
+import Anchor from "../common/Anchor.astro";
 
 const { data: config } = await getConfigurationCollection();
 ---
@@ -21,5 +22,10 @@ const { data: config } = await getConfigurationCollection();
     >
       <p set:html={config.hero.subtitle} />
     </h2>
+    <div class="mt-5 flex justify-center sm:justify-start gap-4">
+      <Anchor url="/Anas Arsyad - Sofware Engineer.pdf" class="text-base">
+        Download Resume
+      </Anchor>
+    </div>
   </div>
 </div>
