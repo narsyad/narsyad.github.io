@@ -34,12 +34,12 @@ keywords = ["web development", "design", "technology"]
 title = "404 Not Found"
 description = "The page you are looking for does not exist."
 longDescription = "The page you are looking for does not exist. Maybe it never existed. Spooky."
-cardImage = "/pp4.png"
+cardImage = "/pp.webp"
 
 [_.hero]
 title = "Anas Arsyad"
 subtitle = "Software Engineer"
-image = "/pp4.png"
+image = "/pp.webp"
 ctaText = "View Projects"
 ctaUrl = "/projects"
 
